@@ -1,0 +1,26 @@
+#+TITLE: Resume — Pablo Vena
+
+[[/resume.pdf][Download PDF]]
+
+* Pablo Vena
+
+vena.pablo@gmail.com
+
+** Education
+
+- *Degree*, Institution, Year
+
+** Experience
+
+*** Job Title — Company
+/Date range/
+
+- What you did.
+
+** Publications
+
+- [[https://TODO][Paper title]] — /Venue, Year/
+
+** Skills
+
+TODO

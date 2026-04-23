@@ -1,0 +1,11 @@
+#+TITLE: Example post title
+#+DATE: <2025-04-23>
+
+@@html:<span class="date">2025-04-23</span>@@
+
+Replace this with the actual post. Describe the problem, what you tried, and what worked.
+
+#+begin_src python
+# code example
+print("hello")
+#+end_src

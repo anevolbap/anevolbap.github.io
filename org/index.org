@@ -1,0 +1,15 @@
+#+TITLE: Pablo Vena
+
+* Hi
+
+I'm Pablo Vena, a TODO. I work on TODO.
+
+* Papers
+
+- [[https://TODO][Paper title]] — /Venue, Year/
+
+* Notes
+
+Recent posts from [[file:posts/index.org][the blog]]:
+
+- [[file:posts/example-post.org][Example post title]]

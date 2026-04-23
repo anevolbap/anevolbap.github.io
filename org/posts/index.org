@@ -1,0 +1,7 @@
+#+TITLE: Posts
+
+Notes on things I've coded or fixed.
+
+* 2025
+
+- [[file:example-post.org][Example post title]] @@html:<span class="date">2025-04-23</span>@@
