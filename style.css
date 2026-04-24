@@ -7,45 +7,48 @@ body {
   font-family: Georgia, serif;
   font-size: 1.05rem;
   line-height: 1.65;
-  color: #222;
-  background: #fff;
+  color: #d4d4d4;
+  background: #141414;
 }
 
 nav {
   font-family: sans-serif;
   font-size: 0.9rem;
   margin-bottom: 2.5rem;
-  color: #555;
+  color: #888;
 }
 
-nav a { color: #333; text-decoration: none; }
-nav a:hover { text-decoration: underline; }
+nav a { color: #aaa; text-decoration: none; }
+nav a:hover { color: #e0e0e0; text-decoration: underline; }
 
 h1, h2, h3 {
   font-family: sans-serif;
   font-weight: 600;
   margin-top: 2rem;
+  color: #e8e8e8;
 }
 
 h1 { font-size: 1.6rem; margin-top: 0; }
-h2 { font-size: 1.2rem; border-bottom: 1px solid #ddd; padding-bottom: 0.2rem; }
+h2 { font-size: 1.15rem; border-bottom: 1px solid #2e2e2e; padding-bottom: 0.2rem; }
 
-a { color: #1a6eb5; }
-a:hover { color: #0d4a8a; }
+a { color: #7ab3e0; }
+a:hover { color: #a8cfef; }
 
 pre {
-  background: #f5f5f5;
-  border: 1px solid #ddd;
+  background: #1e1e1e;
+  border: 1px solid #2e2e2e;
   padding: 1rem;
   overflow-x: auto;
   font-size: 0.9rem;
   line-height: 1.4;
 }
 
-code { font-size: 0.9em; background: #f5f5f5; padding: 0.1em 0.3em; }
+code { font-size: 0.9em; background: #1e1e1e; padding: 0.1em 0.3em; color: #d4d4d4; }
 pre code { background: none; padding: 0; }
 
 ul { padding-left: 1.4rem; }
-li { margin-bottom: 0.3rem; }
+li { margin-bottom: 0.4rem; }
 
-.date { color: #777; font-size: 0.9rem; font-family: sans-serif; }
+em { color: #b0b0b0; }
+
+.date { color: #666; font-size: 0.9rem; font-family: sans-serif; }

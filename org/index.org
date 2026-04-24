@@ -1,15 +1,27 @@
 #+TITLE: Pablo Vena
 
-* Hi
+PhD in Mathematics and Data Scientist.
 
-I'm Pablo Vena, a TODO. I work on TODO.
+Buenos Aires, Argentina · [[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · [[https://github.com/anevolbap][GitHub]]
 
-* Papers
+* Research
 
-- [[https://TODO][Paper title]] — /Venue, Year/
+Three peer-reviewed papers on robust estimation in semiparametric models.
+
+- G. Boente, M. Salibián-Barrera, P. Vena (2020).
+  [[https://doi.org/10.1016/j.csda.2020.107041][Robust estimation for semi-functional linear regression models.]]
+  /Computational Statistics and Data Analysis./
+
+- G. Boente, D. Rodríguez, P. Vena (2020).
+  [[https://doi.org/10.1007/s11749-019-00629-7][Robust estimators in a generalized partly linear regression model under monotony constraints.]]
+  /TEST./
+
+- D. Rodríguez, M. Valdora, P. Vena (2022).
+  [[https://ri.conicet.gov.ar/handle/11336/143181][Robust estimation in partially linear regression models with monotonicity constraints.]]
+  /Communications in Statistics — Simulation and Computation./
+
+PhD thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n6722_Vena][Robust inference in semiparametric models]] ([[https://github.com/anevolbap/RobustFPLM][R code]]) — UBA, 2019.
 
 * Notes
 
-Recent posts from [[file:posts/index.org][the blog]]:
-
-- [[file:posts/example-post.org][Example post title]]
+[[file:posts/index.org][All posts]]
