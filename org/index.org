@@ -28,7 +28,12 @@ PhD thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document
 
 * Open Source
 
-Contributions to [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+author%3Aanevolbap+][CausalPy]], a PyMC Labs library for causal inference.
+Contributions to the PyMC ecosystem:
+
+- [[https://github.com/pymc-devs/pymc/pulls?q=is%3Apr+author%3Aanevolbap+][PyMC]] — probabilistic programming library.
+- [[https://github.com/pymc-devs/pymc-examples/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-examples]] — example notebooks for PyMC.
+- [[https://github.com/pymc-labs/pymc-marketing/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-marketing]] — Bayesian marketing analytics.
+- [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+author%3Aanevolbap+][CausalPy]] — causal inference.
 
 * Notes
 
