@@ -40,7 +40,7 @@ Advisors: Dra. Graciela Boente (UBA) and Dr. Matías Salibián-Barrera (UBC).
 
 - G. Boente, M. Salibián-Barrera, P. Vena (2020). [[https://doi.org/10.1016/j.csda.2020.107041][Robust estimation for semi-functional linear regression models.]] /Computational Statistics and Data Analysis./
 - G. Boente, D. Rodríguez, P. Vena (2020). [[https://doi.org/10.1007/s11749-019-00629-7][Robust estimators in a generalized partly linear regression model under monotony constraints.]] /TEST./
-- D. Rodríguez, M. Valdora, P. Vena (2022). [[https://ri.conicet.gov.ar/handle/11336/143181][Robust estimation in partially linear regression models with monotonicity constraints.]] /Communications in Statistics — Simulation and Computation./
+- D. Rodríguez, M. Valdora, P. Vena (2022). [[https://ri.conicet.gov.ar/handle/11336/143181][Robust estimation in partially linear regression models with monotonicity constraints.]] /Communications in Statistics — Simulation and Computation./ ([[https://github.com/anevolbap/plmisot][non-submitted code]])
 
 * Teaching
 /2015–2022 · UBA, University of San Andrés, University Torcuato di Tella/

@@ -52,3 +52,18 @@ li { margin-bottom: 0.4rem; }
 em { color: #b0b0b0; }
 
 .date { color: #666; font-size: 0.9rem; font-family: sans-serif; }
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.12em;
+  margin-right: 0.35em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+h2 .icon { width: 0.9em; height: 0.9em; opacity: 0.8; }
