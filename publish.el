@@ -2,8 +2,8 @@
 (require 'ox-publish)
 
 (defvar site-root (file-name-directory (or load-file-name buffer-file-name)))
-;; CI sets SITE_OUT to build into a separate folder.
-(defvar site-out (file-name-as-directory (or (getenv "SITE_OUT") site-root)))
+;; Build output, not tracked. SITE_OUT overrides it.
+(defvar site-out (file-name-as-directory (or (getenv "SITE_OUT") (concat site-root "_site"))))
 
 (setq org-publish-project-alist
   `(("site-pages"

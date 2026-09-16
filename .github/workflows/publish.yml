@@ -20,7 +20,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install --yes emacs-nox
 
       - name: Build the site
-        run: make publish SITE_OUT=_site
+        run: make publish
 
       - name: Check the output
         run: |
