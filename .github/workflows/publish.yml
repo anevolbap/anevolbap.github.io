@@ -16,16 +16,21 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Install Emacs
-        run: sudo apt-get update && sudo apt-get install --yes emacs-nox
+      - name: Install Emacs and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends emacs-nox texlive-latex-base lmodern
 
       - name: Build the site
-        run: make publish
+        run: make publish 2>&1 | tee build.log
 
       - name: Check the output
         run: |
+          ! grep -q 'produced with errors' build.log
           test -f _site/index.html
           test -f _site/resume.html
+          test -f _site/resume.pdf
+          test ! -e _site/resume.tex
           test -f _site/style.css
           touch _site/.nojekyll
 

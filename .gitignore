@@ -9,3 +9,7 @@ _site/
 # Claude Code local files
 .claude/settings.local.json
 .claude/worktrees/
+
+# LaTeX build files next to resume.org
+org/resume.tex
+org/resume.pdf
