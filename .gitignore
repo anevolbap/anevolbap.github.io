@@ -13,3 +13,6 @@ _site/
 # LaTeX build files next to resume.org
 org/resume.tex
 org/resume.pdf
+org/resume.log
+org/resume.aux
+org/resume.out

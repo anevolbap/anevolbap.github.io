@@ -22,7 +22,12 @@ jobs:
           sudo apt-get install --yes --no-install-recommends emacs-nox texlive-latex-base lmodern
 
       - name: Build the site
+        shell: bash
         run: make publish 2>&1 | tee build.log
+
+      - name: Show the LaTeX log
+        if: failure()
+        run: cat org/resume.log || true
 
       - name: Check the output
         run: |

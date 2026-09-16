@@ -22,11 +22,13 @@
         ("margin=2cm" "geometry" nil)
         ("colorlinks=true,urlcolor={[rgb]{0.1,0.25,0.55}}" "hyperref" nil))
       org-latex-packages-alist nil
+      ;; Keep the log when the build fails; site-remove-tex cleans up after success.
+      org-latex-remove-logfiles nil
       org-latex-title-command "\\begin{center}{\\LARGE\\bfseries %t}\\end{center}")
 
 (defun site-remove-tex (_project)
   "Remove the LaTeX build files that org leaves next to resume.org."
-  (dolist (f '("resume.tex" "resume.pdf"))
+  (dolist (f '("resume.tex" "resume.pdf" "resume.log" "resume.aux" "resume.out"))
     (let ((path (concat site-root "org/" f)))
       (when (file-exists-p path) (delete-file path)))))
 
