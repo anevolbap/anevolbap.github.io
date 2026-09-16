@@ -2,7 +2,7 @@
 
 [[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · Buenos Aires, Argentina · [[https://github.com/anevolbap][github.com/anevolbap]]
 
-/Last updated: 2026-05-10/
+/Last updated: 2026-09-16/ @@html:· <a href="resume.pdf">PDF version</a>@@
 
 PhD in Mathematics with eight years of experience as a Data Scientist
 across product and consulting companies. My work combines a background
@@ -12,6 +12,12 @@ and advertising budget allocation. Looking to apply causal inference
 and experimentation to product and growth challenges at scale.
 
 * Experience
+
+** Independent Consultant
+/Apr 2026 – Present · Remote/
+
+- Paid media measurement and budget optimization for a travel metasearch company.
+- Collaborator with commit access on [[https://github.com/pymc-labs/CausalPy][CausalPy]], the Bayesian causal inference library by [[https://www.pymc-labs.com/][PyMC Labs]]: feature development, CI and code review. Also contributing to [[https://github.com/pymc-labs/pymc-marketing][pymc-marketing]], PyMC and pymc-examples.
 
 ** Senior Data Scientist — [[https://muun.com/][Muun Wallet]]
 /Nov 2024 – Mar 2026 · Buenos Aires, Argentina/
@@ -67,7 +73,9 @@ Graduate and undergraduate courses in statistics and mathematics:
 
 * Open Source & Community
 
-- [[https://github.com/pymc-labs/CausalPy][CausalPy]]: Contributor to the PyMC Labs causal inference library (2023–present).
+- [[https://github.com/pymc-labs/CausalPy][CausalPy]]: Collaborator with commit access on the PyMC Labs causal inference library, 41 merged PRs (2024–present).
+- [[https://github.com/pymc-labs/pymc-marketing][pymc-marketing]]: 49 merged PRs on marketing mix models, the Bass diffusion model and the MLflow integration (2026–present).
+- [[https://github.com/anevolbap/pyrobustlm][pylmrob]]: Author of a Python port of R's =lmrob= robust regression, published on [[https://pypi.org/project/pylmrob/][PyPI]] (2026–present).
 - [[https://www.go.org.ar/][Argentine Go Association]]: Board member of the official national association for the game of Go (2015–2026).
 - /Argentina contra el Hambre/: Consultant on an interactive map of poverty statistics, in collaboration with Universidad Nacional de Almirante Brown (2023).
 
