@@ -1,0 +1,11 @@
+# Emacs
+*~
+\#*\#
+.#*
+
+# CI build output
+_site/
+
+# Claude Code local files
+.claude/settings.local.json
+.claude/worktrees/
