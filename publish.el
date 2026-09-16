@@ -5,6 +5,12 @@
 ;; Build output, not tracked. SITE_OUT overrides it.
 (defvar site-out (file-name-as-directory (or (getenv "SITE_OUT") (concat site-root "_site"))))
 
+(defun site-preamble (info)
+  "No nav on the home page, it lists the sections. A link back home elsewhere."
+  (if (file-equal-p (plist-get info :input-file) (concat site-root "org/index.org"))
+      ""
+    "<nav><a href='/'>← Pablo Vena</a></nav>"))
+
 (setq org-publish-project-alist
   `(("site-pages"
      :base-directory ,(concat site-root "org")
@@ -21,7 +27,8 @@
      :html-head-include-scripts nil
      :html-head "<link rel='stylesheet' href='/style.css'>"
      ;; :html-preamble "<nav><a href='/'>Home</a> · <a href='/resume.html'>Resume</a> · <a href='/posts/'>Posts</a></nav>"
-     :html-preamble "<nav><a href='/'>Home</a> · <a href='/open-source.html'>Open Source</a> · <a href='/projects.html'>Projects</a> · <a href='/research.html'>Research</a> · <a href='/resume.html'>Resume</a></nav>"
+     ;; :html-preamble "<nav><a href='/'>Home</a> · <a href='/open-source.html'>Open Source</a> · <a href='/projects.html'>Projects</a> · <a href='/research.html'>Research</a> · <a href='/resume.html'>Resume</a></nav>"
+     :html-preamble site-preamble
      :html-postamble nil)
     ("site-static"
      :base-directory ,(concat site-root "org/static")

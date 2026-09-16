@@ -67,3 +67,6 @@ em { color: #b0b0b0; }
 }
 
 h2 .icon { width: 0.9em; height: 0.9em; opacity: 0.8; }
+
+ul.sections { list-style: none; padding-left: 0; margin-top: 2rem; }
+ul.sections li { margin-bottom: 0.9rem; }

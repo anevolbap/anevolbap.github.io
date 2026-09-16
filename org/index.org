@@ -5,12 +5,11 @@ Data scientist with a PhD in Mathematics and a background in robust statistics. 
 
 Buenos Aires, Argentina · {{{icon-mail}}}[[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · {{{icon-github}}}[[https://github.com/anevolbap][GitHub]]
 
-* {{{icon-projects}}} Highlights
-
-- [[https://github.com/anevolbap/pyrobustlm][pylmrob]]: the =lmrob= MM-estimator from R, ported to Python. More in [[file:open-source.org][Open Source]].
-- [[https://linea-f.anevolbap.workers.dev][Línea F]]: a map simulator for the planned Buenos Aires subway Line F. More in [[file:projects.org][Projects]].
-- [[https://anevolbap.github.io/mobel/][Möbel]]: a to-scale floor-plan editor in the browser.
-- Three papers on robust estimation. More in [[file:research.org][Research]].
+#+ATTR_HTML: :class sections
+- {{{icon-code}}}[[file:open-source.org][Open Source]]: pylmrob, a Python port of R's =lmrob=, and contributions to PyMC, pyfixest and others.
+- {{{icon-projects}}}[[file:projects.org][Weekend Projects]]: small tools, like Línea F (a subway simulator) and Möbel (a floor-plan editor).
+- {{{icon-research}}}[[file:research.org][Research]]: papers on robust statistics, my PhD thesis, and teaching.
+- {{{icon-resume}}}[[file:resume.org][Resume]]: experience, education and skills.
 
 # Disabled until the first post lands.
 * COMMENT {{{icon-notes}}} Notes
