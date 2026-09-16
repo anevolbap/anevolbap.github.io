@@ -2,24 +2,47 @@ name: Publish to GitHub Pages
 
 on:
   push:
-    branches:
-      - master
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v7
 
       - name: Install Emacs
-        run: sudo apt install emacs-nox --yes
+        run: sudo apt-get update && sudo apt-get install --yes emacs-nox
 
       - name: Build the site
-        run: ./build.sh
+        run: make publish SITE_OUT=_site
 
-      - name: Publish generated content to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - name: Check the output
+        run: |
+          test -f _site/index.html
+          test -f _site/resume.html
+          test -f _site/style.css
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v5
         with:
-          branch: gh-pages
-          folder: public
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5
