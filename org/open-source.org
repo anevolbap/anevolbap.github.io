@@ -7,13 +7,14 @@
 
 * {{{icon-code}}} Contributions
 
-PyMC ecosystem:
+- [[https://github.com/pymc-labs/CausalPy][CausalPy]] — Bayesian causal inference by PyMC Labs. Collaborator with commit access, [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+is%3Amerged+author%3Aanevolbap][41 merged PRs]]. Some of them: covariates in state-space time series ([[https://github.com/pymc-labs/CausalPy/pull/1111][#1111]]), a placebo-in-time calibration plot ([[https://github.com/pymc-labs/CausalPy/pull/1140][#1140]]), a summary for instrumental variable models ([[https://github.com/pymc-labs/CausalPy/pull/851][#851]]), and mypy as a real CI gate ([[https://github.com/pymc-labs/CausalPy/pull/1145][#1145]]).
+- [[https://github.com/pymc-labs/pymc-marketing][pymc-marketing]] — Bayesian marketing analytics. [[https://github.com/pymc-labs/pymc-marketing/pulls?q=is%3Apr+is%3Amerged+author%3Aanevolbap][49 merged PRs]]. Some of them: MLflow autolog ([[https://github.com/pymc-labs/pymc-marketing/pull/2624][#2624]]) and plotting methods ([[https://github.com/pymc-labs/pymc-marketing/pull/2628][#2628]]) for the Bass diffusion model, its move to =pymc.dims= ([[https://github.com/pymc-labs/pymc-marketing/pull/2771][#2771]]), and a check that rejects likelihoods off the response scale under an identity link ([[https://github.com/pymc-labs/pymc-marketing/pull/2841][#2841]]).
+
+More in the PyMC ecosystem:
 
 - [[https://github.com/pymc-devs/pymc/pulls?q=is%3Apr+author%3Aanevolbap+][PyMC]] — probabilistic programming library.
 - [[https://github.com/pymc-devs/pymc-extras/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-extras]] — add-ons for PyMC.
 - [[https://github.com/pymc-devs/pymc-examples/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-examples]] — example notebooks for PyMC.
-- [[https://github.com/pymc-labs/pymc-marketing/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-marketing]] — Bayesian marketing analytics.
-- [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+author%3Aanevolbap+][CausalPy]] — causal inference.
 - [[https://github.com/pymc-labs/pathmc/pulls?q=is%3Apr+author%3Aanevolbap+][pathmc]] — Bayesian structural causal models.
 
 Other:
