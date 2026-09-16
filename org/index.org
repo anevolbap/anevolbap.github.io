@@ -34,26 +34,11 @@ PhD thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document
 - [[https://github.com/anevolbap/corrector/][corrector]] — a small tool to autograde coding exercises by running student submissions against a test suite and reporting results.
 - [[https://github.com/anevolbap/cosas-shiny/][cosas-shiny]] — a collection of material built for different statistics courses.
 
-* {{{icon-projects}}} Projects
+* {{{icon-code}}} Open Source
 
-Things I build in my free time.
-
-Robust statistics:
+My packages:
 
 - [[https://github.com/anevolbap/pyrobustlm][pylmrob]]: a Python port of the =lmrob= MM-estimator from R's [[https://cran.r-project.org/package=robustbase][robustbase]]. It matches R on the classic validation datasets. On [[https://pypi.org/project/pylmrob/][PyPI]], with [[https://pyrobustlm.readthedocs.io][docs]].
-
-Buenos Aires:
-
-- [[https://linea-f.anevolbap.workers.dev][Línea F]]: a map simulator for the planned subway Line F.
-- [[https://github.com/anevolbap/guia-abierta][Guía Abierta]]: a printable pocket guide to move around the city by bus, subway and Ecobici, in the style of the classic Guía T. Built from open data.
-- [[https://github.com/anevolbap/uvita][uvita]]: a Google Sheets script that gets the current UVA value (the inflation-indexed unit for Argentine mortgages).
-
-Tools:
-
-- [[https://github.com/anevolbap/mobel][Möbel]]: a to-scale floor-plan editor in the browser. Place rooms, doors and furniture, or let /Rearrange/ propose new layouts. [[https://anevolbap.github.io/mobel/][Try it]].
-- [[https://github.com/anevolbap/bitaxe-health][bitaxe-health]]: a cron health check for a Bitaxe bitcoin miner, with ntfy alerts.
-
-* {{{icon-code}}} Open Source
 
 Contributions to the PyMC ecosystem:
 
@@ -62,6 +47,19 @@ Contributions to the PyMC ecosystem:
 - [[https://github.com/pymc-labs/pymc-marketing/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-marketing]] — Bayesian marketing analytics.
 - [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+author%3Aanevolbap+][CausalPy]] — causal inference.
 
-* {{{icon-notes}}} Notes
+* {{{icon-projects}}} Weekend Projects
+
+Small things I build for fun.
+
+- [[https://linea-f.anevolbap.workers.dev][Línea F]]: a map simulator for the planned Buenos Aires subway Line F.
+- [[https://github.com/anevolbap/guia-abierta][Guía Abierta]]: a printable pocket guide to move around Buenos Aires by bus, subway and Ecobici, in the style of the classic Guía T. Built from open data.
+- [[https://github.com/anevolbap/mobel][Möbel]]: a to-scale floor-plan editor in the browser. Place rooms, doors and furniture, or let /Rearrange/ propose new layouts. [[https://anevolbap.github.io/mobel/][Try it]].
+- [[https://github.com/anevolbap/org-rag][org-rag]]: search over a personal notes vault (Org or Markdown) that follows the links between notes, not only text similarity. Comes with an Emacs frontend.
+- [[https://github.com/anevolbap/tidyrrr][tidyrrr]]: tidies a messy music and movies drive from file tags, with a plan you read first and an undo. Nothing is deleted.
+- [[https://github.com/anevolbap/uvita][uvita]]: a Google Sheets script that gets the current UVA value (the inflation-indexed unit for Argentine mortgages).
+- [[https://github.com/anevolbap/bitaxe-health][bitaxe-health]]: a cron health check for a Bitaxe bitcoin miner, with ntfy alerts.
+
+# Disabled until the first post lands.
+* COMMENT {{{icon-notes}}} Notes
 
 [[file:posts/index.org][All posts]]
