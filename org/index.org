@@ -1,11 +1,9 @@
 #+TITLE: Pablo Vena
 #+SETUPFILE: macros.setup
 
-PhD in Mathematics and Data Scientist.
+Data scientist with a PhD in Mathematics and a background in robust statistics. I have eight years of experience in consulting and product companies, mostly in marketing (attribution, budget allocation) and crypto (a Bitcoin wallet). I also build small tools for fun (or need).
 
 Buenos Aires, Argentina · {{{icon-mail}}}[[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · {{{icon-github}}}[[https://github.com/anevolbap][GitHub]]
-
-I work on robust statistics and Bayesian modeling, and I build small tools for fun (or need).
 
 * {{{icon-projects}}} Highlights
 
