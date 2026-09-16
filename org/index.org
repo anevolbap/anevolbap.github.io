@@ -43,13 +43,20 @@ My packages:
 Contributions to the PyMC ecosystem:
 
 - [[https://github.com/pymc-devs/pymc/pulls?q=is%3Apr+author%3Aanevolbap+][PyMC]] — probabilistic programming library.
+- [[https://github.com/pymc-devs/pymc-extras/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-extras]] — add-ons for PyMC.
 - [[https://github.com/pymc-devs/pymc-examples/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-examples]] — example notebooks for PyMC.
 - [[https://github.com/pymc-labs/pymc-marketing/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-marketing]] — Bayesian marketing analytics.
 - [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+author%3Aanevolbap+][CausalPy]] — causal inference.
+- [[https://github.com/pymc-labs/pathmc/pulls?q=is%3Apr+author%3Aanevolbap+][pathmc]] — Bayesian structural causal models.
+
+Other contributions:
+
+- [[https://github.com/py-econometrics/pyfixest/pulls?q=is%3Apr+author%3Aanevolbap+][pyfixest]] — fast fixed effects regression in Python.
+- [[https://github.com/zevlg/telega.el/pulls?q=is%3Apr+author%3Aanevolbap+][telega.el]] — Telegram client for Emacs.
 
 * {{{icon-projects}}} Weekend Projects
 
-Small things I build for fun.
+Small things I build for fun (or need).
 
 - [[https://linea-f.anevolbap.workers.dev][Línea F]]: a map simulator for the planned Buenos Aires subway Line F.
 - [[https://github.com/anevolbap/guia-abierta][Guía Abierta]]: a printable pocket guide to move around Buenos Aires by bus, subway and Ecobici, in the style of the classic Guía T. Built from open data.
