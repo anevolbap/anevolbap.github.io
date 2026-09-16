@@ -11,8 +11,8 @@
       ""
     "<nav><a href='/'>← Pablo Vena</a></nav>"))
 
-;; Resume PDF: keep the LaTeX packages to what texlive-latex-base and
-;; lmodern ship, so CI installs little.
+;; Resume PDF: keep the LaTeX packages to what texlive-latex-base,
+;; texlive-latex-recommended and lmodern ship, so CI installs little.
 (setq org-latex-compiler "pdflatex"
       org-latex-pdf-process
       '("pdflatex -interaction nonstopmode -output-directory %o %f"
