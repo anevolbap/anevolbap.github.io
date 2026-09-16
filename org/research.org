@@ -1,0 +1,25 @@
+#+TITLE: Research
+#+SETUPFILE: macros.setup
+
+* {{{icon-research}}} Papers
+
+Three peer-reviewed papers on robust estimation in semiparametric models.
+
+- G. Boente, M. Salibián-Barrera, P. Vena (2020).
+  [[https://doi.org/10.1016/j.csda.2020.107041][Robust estimation for semi-functional linear regression models.]]
+  /Computational Statistics and Data Analysis./
+
+- G. Boente, D. Rodríguez, P. Vena (2020).
+  [[https://doi.org/10.1007/s11749-019-00629-7][Robust estimators in a generalized partly linear regression model under monotony constraints.]]
+  /TEST./
+
+- D. Rodríguez, M. Valdora, P. Vena (2022).
+  [[https://www.tandfonline.com/doi/full/10.1080/03610918.2019.1691732][Robust estimation in partially linear regression models with monotonicity constraints.]]
+  /Communications in Statistics — Simulation and Computation./ ([[https://github.com/anevolbap/plmisot][R code]])
+
+PhD thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n6722_Vena][Robust inference in semiparametric models]] ([[https://github.com/anevolbap/RobustFPLM][R code]]) — UBA, 2019.
+
+* {{{icon-teaching}}} Teaching
+
+- [[https://github.com/anevolbap/corrector/][corrector]] — a small tool to autograde coding exercises by running student submissions against a test suite and reporting results.
+- [[https://github.com/anevolbap/cosas-shiny/][cosas-shiny]] — a collection of material built for different statistics courses.

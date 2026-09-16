@@ -1,0 +1,22 @@
+#+TITLE: Open Source
+#+SETUPFILE: macros.setup
+
+* {{{icon-code}}} My packages
+
+- [[https://github.com/anevolbap/pyrobustlm][pylmrob]]: a Python port of the =lmrob= MM-estimator from R's [[https://cran.r-project.org/package=robustbase][robustbase]]. It matches R on the classic validation datasets. On [[https://pypi.org/project/pylmrob/][PyPI]], with [[https://pyrobustlm.readthedocs.io][docs]].
+
+* {{{icon-code}}} Contributions
+
+PyMC ecosystem:
+
+- [[https://github.com/pymc-devs/pymc/pulls?q=is%3Apr+author%3Aanevolbap+][PyMC]] — probabilistic programming library.
+- [[https://github.com/pymc-devs/pymc-extras/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-extras]] — add-ons for PyMC.
+- [[https://github.com/pymc-devs/pymc-examples/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-examples]] — example notebooks for PyMC.
+- [[https://github.com/pymc-labs/pymc-marketing/pulls?q=is%3Apr+author%3Aanevolbap+][pymc-marketing]] — Bayesian marketing analytics.
+- [[https://github.com/pymc-labs/CausalPy/pulls?q=is%3Apr+author%3Aanevolbap+][CausalPy]] — causal inference.
+- [[https://github.com/pymc-labs/pathmc/pulls?q=is%3Apr+author%3Aanevolbap+][pathmc]] — Bayesian structural causal models.
+
+Other:
+
+- [[https://github.com/py-econometrics/pyfixest/pulls?q=is%3Apr+author%3Aanevolbap+][pyfixest]] — fast fixed effects regression in Python.
+- [[https://github.com/zevlg/telega.el/pulls?q=is%3Apr+author%3Aanevolbap+][telega.el]] — Telegram client for Emacs.

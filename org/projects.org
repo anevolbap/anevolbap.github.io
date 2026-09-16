@@ -1,0 +1,12 @@
+#+TITLE: Weekend Projects
+#+SETUPFILE: macros.setup
+
+Small things I build for fun (or need).
+
+- [[https://linea-f.anevolbap.workers.dev][Línea F]]: a map simulator for the planned Buenos Aires subway Line F.
+- [[https://github.com/anevolbap/guia-abierta][Guía Abierta]]: a printable pocket guide to move around Buenos Aires by bus, subway and Ecobici, in the style of the classic Guía T. Built from open data.
+- [[https://github.com/anevolbap/mobel][Möbel]]: a to-scale floor-plan editor in the browser. Place rooms, doors and furniture, or let /Rearrange/ propose new layouts. [[https://anevolbap.github.io/mobel/][Try it]].
+- [[https://github.com/anevolbap/org-rag][org-rag]]: search over a personal notes vault (Org or Markdown) that follows the links between notes, not only text similarity. Comes with an Emacs frontend.
+- [[https://github.com/anevolbap/tidyrrr][tidyrrr]]: tidies a messy music and movies drive from file tags, with a plan you read first and an undo. Nothing is deleted.
+- [[https://github.com/anevolbap/uvita][uvita]]: a Google Sheets script that gets the current UVA value (the inflation-indexed unit for Argentine mortgages).
+- [[https://github.com/anevolbap/bitaxe-health][bitaxe-health]]: a cron health check for a Bitaxe bitcoin miner, with ntfy alerts.

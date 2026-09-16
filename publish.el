@@ -21,7 +21,7 @@
      :html-head-include-scripts nil
      :html-head "<link rel='stylesheet' href='/style.css'>"
      ;; :html-preamble "<nav><a href='/'>Home</a> · <a href='/resume.html'>Resume</a> · <a href='/posts/'>Posts</a></nav>"
-     :html-preamble "<nav><a href='/'>Home</a> · <a href='/resume.html'>Resume</a></nav>"
+     :html-preamble "<nav><a href='/'>Home</a> · <a href='/research.html'>Research</a> · <a href='/open-source.html'>Open Source</a> · <a href='/projects.html'>Projects</a> · <a href='/resume.html'>Resume</a></nav>"
      :html-postamble nil)
     ("site-static"
      :base-directory ,(concat site-root "org/static")
