@@ -2,6 +2,8 @@
 
 [[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · Buenos Aires, Argentina · [[https://github.com/anevolbap][github.com/anevolbap]]
 
+/Last updated: 2026-05-10/
+
 PhD in Mathematics with eight years of experience as a Data Scientist
 across product and consulting companies. My work combines a background
 in robust statistical inference with applied measurement and
@@ -21,12 +23,18 @@ and experimentation to product and growth challenges at scale.
 /Apr 2021 – Oct 2024 · Fully Remote/
 
 - Led the team's work for MercadoLibre (the largest e-commerce in Latin America). Built a budget optimization system managing ~$1M USD in daily advertising spend, and developed a deep-learning multi-touch attribution model from proof-of-concept to production (validated via incrementality testing).
+- Participated in client-facing pilots of /Mixilo/, Mutt Data's in-house marketing mix modeling and budget allocation platform, and contributed improvements to its core code.
 - Worked with the FEMSA team (major Coca-Cola bottler) on measuring the causal impact of a B2B ordering app launch using difference-in-differences with two-way fixed effects, coded in R.
 
 ** Data Scientist — [[https://www.aristas.com.ar/][Aristas]]
 /Aug 2018 – Oct 2020 · Buenos Aires, Argentina/
 
 - Built statistical and ML models for consulting clients: Prophet-based sales forecasting, dynamic clustering of financial time series, and random forests for supply chain prediction.
+
+** Research Intern — Institute for Astronomy and Space Physics (IAFE), UBA
+/2013 · Buenos Aires, Argentina/
+
+- Developed MATLAB code modelling the SAC-E satellite orbit and the sun-glint phenomenon (specular reflection of electromagnetic radiation off the sea surface).
 
 * Education
 
@@ -36,6 +44,11 @@ and experimentation to product and growth challenges at scale.
 Thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n6722_Vena][Robust inference in semiparametric models]] ([[https://github.com/anevolbap/RobustFPLM][R code]]).
 Advisors: Dra. Graciela Boente (UBA) and Dr. Matías Salibián-Barrera (UBC).
 
+** Licenciatura in Applied Mathematics — University of Buenos Aires (UBA)
+/2009 – 2014/
+
+Thesis: [[https://web.dm.uba.ar/files/tesis_lic/2014/pablo_vena.pdf][Outlier detection for skewed functional data]]. Advisor: Dra. Graciela Boente.
+
 * Publications
 
 - G. Boente, M. Salibián-Barrera, P. Vena (2020). [[https://doi.org/10.1016/j.csda.2020.107041][Robust estimation for semi-functional linear regression models.]] /Computational Statistics and Data Analysis./
@@ -43,13 +56,20 @@ Advisors: Dra. Graciela Boente (UBA) and Dr. Matías Salibián-Barrera (UBC).
 - D. Rodríguez, M. Valdora, P. Vena (2022). [[https://ri.conicet.gov.ar/handle/11336/143181][Robust estimation in partially linear regression models with monotonicity constraints.]] /Communications in Statistics — Simulation and Computation./ ([[https://github.com/anevolbap/plmisot][non-submitted code]])
 
 * Teaching
-/2015–2022 · UBA, University of San Andrés, University Torcuato di Tella/
 
-Graduate and undergraduate courses in statistics and mathematics.
+Graduate and undergraduate courses in statistics and mathematics:
 
-* Open Source
+- *Professor* — Statistics department, UBA (2021–2022).
+- *Professor* — Statistics department, University of San Andrés (2018–2021).
+- *Invited Professor* — Statistics department, University Torcuato di Tella (2015–2019).
+- *Teaching Assistant* — Mathematics department, UBA (2007–2019).
+- *Astronomy Instructor and Laboratory Assistant* — "Héctor Otonello" Astronomical Observatory, Colegio Nacional de Buenos Aires (2005–2014). Taught the General Astronomy Course and special talks.
+
+* Open Source & Community
 
 - [[https://github.com/pymc-labs/CausalPy][CausalPy]]: Contributor to the PyMC Labs causal inference library (2023–present).
+- [[https://www.go.org.ar/][Argentine Go Association]]: Board member of the official national association for the game of Go (2015–2026).
+- /Argentina contra el Hambre/: Consultant on an interactive map of poverty statistics, in collaboration with Universidad Nacional de Almirante Brown (2023).
 
 * Skills
 
@@ -59,4 +79,5 @@ Graduate and undergraduate courses in statistics and mathematics.
 
 * Scholarships & Awards
 
-- [[https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng][ELAP Scholarship]] (2017) — research stay at the University of British Columbia.
+- *CONICET Doctoral Scholarship* (2014–2019) — full-time funding for PhD research.
+- [[https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng][ELAP Scholarship]] (2017) — research stay at the University of British Columbia, Vancouver, Canada, hosted by Dr. Matías Salibián-Barrera.

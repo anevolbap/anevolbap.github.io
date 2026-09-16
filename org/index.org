@@ -25,7 +25,7 @@ Three peer-reviewed papers on robust estimation in semiparametric models.
 
 - D. Rodríguez, M. Valdora, P. Vena (2022).
   [[https://www.tandfonline.com/doi/full/10.1080/03610918.2019.1691732][Robust estimation in partially linear regression models with monotonicity constraints.]]
-  /Communications in Statistics — Simulation and Computation./
+  /Communications in Statistics — Simulation and Computation./ ([[https://github.com/anevolbap/plmisot][R code]])
 
 PhD thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n6722_Vena][Robust inference in semiparametric models]] ([[https://github.com/anevolbap/RobustFPLM][R code]]) — UBA, 2019.
 
