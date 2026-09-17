@@ -19,15 +19,15 @@ jobs:
       - name: Install Emacs and LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends emacs-nox texlive-latex-base texlive-latex-recommended lmodern
+          sudo apt-get install --yes --no-install-recommends emacs-nox texlive-luatex texlive-latex-recommended texlive-latex-extra fonts-texgyre poppler-utils
 
       - name: Build the site
         shell: bash
         run: make publish 2>&1 | tee build.log
 
-      - name: Show the LaTeX log
+      - name: Show the LaTeX logs
         if: failure()
-        run: cat org/resume.log || true
+        run: cat cv/*.log || true
 
       - name: Check the output
         run: |
@@ -35,6 +35,8 @@ jobs:
           test -f _site/index.html
           test -f _site/resume.html
           test -f _site/resume.pdf
+          test -f _site/resume-1page.pdf
+          pdfinfo _site/resume-1page.pdf | grep -Eq '^Pages: +1$'
           test ! -e _site/resume.tex
           test -f _site/style.css
           touch _site/.nojekyll

@@ -1,8 +1,22 @@
 #+TITLE: Resume — Pablo Vena
+#+CV_NAME: Pablo Vena
+#+CV_ADDRESS: Buenos Aires, Argentina
+#+CV_EMAIL: vena.pablo@gmail.com
+#+CV_GITHUB: github.com/anevolbap
+#+CV_DATE: 2026-09-16
+
+# This file feeds the web page and both PDFs (cv-silver template in ../cv/).
+# Tags: :job: :education: :oneline: :descript: follow ox-cv-silver.el.
+# :web: shows only on the web page. :full: is left out of the one-page PDF,
+# and so is a bullet ending in @@cv:full@@.
+
+* Contact :web:
 
 [[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · Buenos Aires, Argentina · [[https://github.com/anevolbap][github.com/anevolbap]]
 
-/Last updated: 2026-09-16/ @@html:· <a href="resume.pdf">PDF version</a>@@
+/Last updated: {{{keyword(CV_DATE)}}}/ · PDF: [[file:resume.pdf][full]], [[file:resume-1page.pdf][one page]]
+
+* About Me :descript:
 
 PhD in Mathematics with eight years of experience as a Data Scientist
 across product and consulting companies. My work combines a background
@@ -13,55 +27,81 @@ and experimentation to product and growth challenges at scale.
 
 * Experience
 
-** Independent Consultant
-/Apr 2026 – Present · Remote/
+** Independent Consultant :job:
+:PROPERTIES:
+:INSTITUTION: Freelance
+:LOCATION: Remote
+:DATE: Apr 2026 – Present
+:END:
 
 - Paid media measurement and budget optimization for a travel metasearch company.
-- Collaborator with commit access on [[https://github.com/pymc-labs/CausalPy][CausalPy]], the Bayesian causal inference library by [[https://www.pymc-labs.com/][PyMC Labs]]: feature development, CI and code review. Also contributing to [[https://github.com/pymc-labs/pymc-marketing][pymc-marketing]], PyMC and pymc-examples.
+- Collaborator with commit access on [[https://github.com/pymc-labs/CausalPy][CausalPy]], the Bayesian causal inference library by [[https://www.pymc-labs.com/][PyMC Labs]]: feature development, CI and code review. Also contributing to [[https://github.com/pymc-labs/pymc-marketing][pymc-marketing]], PyMC and pymc-examples. @@cv:full@@
 
-** Senior Data Scientist — [[https://muun.com/][Muun Wallet]]
-/Nov 2024 – Mar 2026 · Buenos Aires, Argentina/
+** Senior Data Scientist :job:
+:PROPERTIES:
+:INSTITUTION: [[https://muun.com/][Muun Wallet]]
+:LOCATION: Buenos Aires, Argentina
+:DATE: Nov 2024 – Mar 2026
+:END:
 
 - Developed rebalancing strategies for liquidity optimization in a self-custodial Bitcoin and Lightning Network wallet, balancing operational costs and user experience in collaboration with the product team.
 - Built a cost simulator that models the wallet's operations end-to-end, used regularly as the core tool for evaluating liquidity strategies and running exploratory analyses.
 
-** Lead Data Scientist — [[https://www.muttdata.ai/][Mutt Data]]
-/Apr 2021 – Oct 2024 · Fully Remote/
+** Lead Data Scientist :job:
+:PROPERTIES:
+:INSTITUTION: [[https://www.muttdata.ai/][Mutt Data]]
+:LOCATION: Fully Remote
+:DATE: Apr 2021 – Oct 2024
+:END:
 
 - Led the team's work for MercadoLibre (the largest e-commerce in Latin America). Built a budget optimization system managing ~$1M USD in daily advertising spend, and developed a deep-learning multi-touch attribution model from proof-of-concept to production (validated via incrementality testing).
-- Participated in client-facing pilots of /Mixilo/, Mutt Data's in-house marketing mix modeling and budget allocation platform, and contributed improvements to its core code.
+- Participated in client-facing pilots of /Mixilo/, Mutt Data's in-house marketing mix modeling and budget allocation platform, and contributed improvements to its core code. @@cv:full@@
 - Worked with the FEMSA team (major Coca-Cola bottler) on measuring the causal impact of a B2B ordering app launch using difference-in-differences with two-way fixed effects, coded in R.
 
-** Data Scientist — [[https://www.aristas.com.ar/][Aristas]]
-/Aug 2018 – Oct 2020 · Buenos Aires, Argentina/
+** Data Scientist :job:
+:PROPERTIES:
+:INSTITUTION: [[https://www.aristas.com.ar/][Aristas]]
+:LOCATION: Buenos Aires, Argentina
+:DATE: Aug 2018 – Oct 2020
+:END:
 
 - Built statistical and ML models for consulting clients: Prophet-based sales forecasting, dynamic clustering of financial time series, and random forests for supply chain prediction.
 
-** Research Intern — Institute for Astronomy and Space Physics (IAFE), UBA
-/2013 · Buenos Aires, Argentina/
+** Research Intern :job:full:
+:PROPERTIES:
+:INSTITUTION: Institute for Astronomy and Space Physics (IAFE), UBA
+:LOCATION: Buenos Aires, Argentina
+:DATE: 2013
+:END:
 
 - Developed MATLAB code modelling the SAC-E satellite orbit and the sun-glint phenomenon (specular reflection of electromagnetic radiation off the sea surface).
 
 * Education
 
-** PhD in Mathematics — University of Buenos Aires (UBA)
-/Mar 2014 – Mar 2019/
+** University of Buenos Aires (UBA) :education:
+:PROPERTIES:
+:MAJOR: PhD in Mathematics
+:DATE: Mar 2014 – Mar 2019
+:END:
 
 Thesis: [[https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n6722_Vena][Robust inference in semiparametric models]] ([[https://github.com/anevolbap/RobustFPLM][R code]]).
 Advisors: Dra. Graciela Boente (UBA) and Dr. Matías Salibián-Barrera (UBC).
 
-** Licenciatura in Applied Mathematics — University of Buenos Aires (UBA)
-/2009 – 2014/
+** University of Buenos Aires (UBA) :education:
+:PROPERTIES:
+:MAJOR: Licenciatura in Applied Mathematics
+:DATE: 2009 – 2014
+:END:
 
 Thesis: [[https://web.dm.uba.ar/files/tesis_lic/2014/pablo_vena.pdf][Outlier detection for skewed functional data]]. Advisor: Dra. Graciela Boente.
 
-* Publications
+* Publications :full:
 
 - G. Boente, M. Salibián-Barrera, P. Vena (2020). [[https://doi.org/10.1016/j.csda.2020.107041][Robust estimation for semi-functional linear regression models.]] /Computational Statistics and Data Analysis./
 - G. Boente, D. Rodríguez, P. Vena (2020). [[https://doi.org/10.1007/s11749-019-00629-7][Robust estimators in a generalized partly linear regression model under monotony constraints.]] /TEST./
 - D. Rodríguez, M. Valdora, P. Vena (2022). [[https://ri.conicet.gov.ar/handle/11336/143181][Robust estimation in partially linear regression models with monotonicity constraints.]] /Communications in Statistics — Simulation and Computation./ ([[https://github.com/anevolbap/plmisot][non-submitted code]])
 
-* Teaching
+* Teaching :full:
 
 Graduate and undergraduate courses in statistics and mathematics:
 
@@ -69,23 +109,28 @@ Graduate and undergraduate courses in statistics and mathematics:
 - *Professor* — Statistics department, University of San Andrés (2018–2021).
 - *Invited Professor* — Statistics department, University Torcuato di Tella (2015–2019).
 - *Teaching Assistant* — Mathematics department, UBA (2007–2019).
-- *Astronomy Instructor and Laboratory Assistant* — "Héctor Otonello" Astronomical Observatory, Colegio Nacional de Buenos Aires (2005–2014). Taught the General Astronomy Course and special talks.
+- *Astronomy Instructor and Laboratory Assistant* — “Héctor Otonello” Astronomical Observatory, Colegio Nacional de Buenos Aires (2005–2014). Taught the General Astronomy Course and special talks.
 
 * Open Source & Community
 
 - [[https://github.com/pymc-labs/CausalPy][CausalPy]]: Collaborator with commit access on the PyMC Labs causal inference library, 41 merged PRs (2024–present).
 - [[https://github.com/pymc-labs/pymc-marketing][pymc-marketing]]: 49 merged PRs on marketing mix models, the Bass diffusion model and the MLflow integration (2026–present).
 - [[https://github.com/anevolbap/pyrobustlm][pylmrob]]: Author of a Python port of R's =lmrob= robust regression, published on [[https://pypi.org/project/pylmrob/][PyPI]] (2026–present).
-- [[https://www.go.org.ar/][Argentine Go Association]]: Board member of the official national association for the game of Go (2015–2026).
-- /Argentina contra el Hambre/: Consultant on an interactive map of poverty statistics, in collaboration with Universidad Nacional de Almirante Brown (2023).
+- [[https://www.go.org.ar/][Argentine Go Association]]: Board member of the official national association for the game of Go (2015–2026). @@cv:full@@
+- /Argentina contra el Hambre/: Consultant on an interactive map of poverty statistics, in collaboration with Universidad Nacional de Almirante Brown (2023). @@cv:full@@
 
 * Skills
 
-- *Stack:* Python (PyMC, PyTorch, CVXPY), R, SQL, Git, Docker
-- *Methods:* Causal inference, A/B testing and experiment design, Bayesian modeling, deep learning, optimization
-- *Languages:* Spanish (native), English (advanced), French & Italian (intermediate)
+** Stack :oneline:
+Python (PyMC, PyTorch, CVXPY), R, SQL, Git, Docker
 
-* Scholarships & Awards
+** Methods :oneline:
+Causal inference, A/B testing and experiment design, Bayesian modeling, deep learning, optimization
+
+** Languages :oneline:
+Spanish (native), English (advanced), French & Italian (intermediate)
+
+* Scholarships & Awards :full:
 
 - *CONICET Doctoral Scholarship* (2014–2019) — full-time funding for PhD research.
 - [[https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng][ELAP Scholarship]] (2017) — research stay at the University of British Columbia, Vancouver, Canada, hosted by Dr. Matías Salibián-Barrera.

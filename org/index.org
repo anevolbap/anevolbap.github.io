@@ -11,7 +11,7 @@ Buenos Aires, Argentina · {{{icon-mail}}}[[mailto:vena.pablo@gmail.com][vena.pa
 - {{{icon-code}}}[[file:open-source.org][Open Source]]: pylmrob, a Python port of R's =lmrob=, and contributions to PyMC, pyfixest and others.
 - {{{icon-projects}}}[[file:projects.org][Small Side Projects]]: small tools, like Línea F (a subway simulator) and Möbel (a floor-plan editor).
 - {{{icon-research}}}[[file:research.org][Research]]: papers on robust statistics, my PhD thesis, and teaching.
-- {{{icon-resume}}}[[file:resume.org][Resume]]: experience, education and skills. Also as [[file:resume.pdf][PDF]].
+- {{{icon-resume}}}[[file:resume.org][Resume]]: experience, education and skills. PDF: [[file:resume.pdf][full]], [[file:resume-1page.pdf][one page]].
 
 # Disabled until the first post lands.
 * COMMENT {{{icon-notes}}} Notes

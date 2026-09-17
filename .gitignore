@@ -16,3 +16,10 @@ org/resume.pdf
 org/resume.log
 org/resume.aux
 org/resume.out
+
+# cv-silver build files
+cv/*.tex
+cv/*.pdf
+cv/*.log
+cv/*.aux
+cv/*.out
