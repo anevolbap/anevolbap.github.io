@@ -3,13 +3,13 @@
 
 Data scientist with a PhD in Mathematics and a background in robust statistics. I have eight years of experience in consulting and product companies, mostly in marketing (attribution, budget allocation) and crypto (a Bitcoin wallet). I also build small tools for fun (or need).
 
-I am open to data science roles, especially in measurement, causal inference and experimentation.
+I am open to data science roles, especially in measurement, causal inference and experimentation, and to any other exciting project.
 
 Buenos Aires, Argentina · {{{icon-mail}}}[[mailto:vena.pablo@gmail.com][vena.pablo@gmail.com]] · {{{icon-github}}}[[https://github.com/anevolbap][GitHub]]
 
 #+ATTR_HTML: :class sections
 - {{{icon-code}}}[[file:open-source.org][Open Source]]: pylmrob, a Python port of R's =lmrob=, and contributions to PyMC, pyfixest and others.
-- {{{icon-projects}}}[[file:projects.org][Weekend Projects]]: small tools, like Línea F (a subway simulator) and Möbel (a floor-plan editor).
+- {{{icon-projects}}}[[file:projects.org][Small Side Projects]]: small tools, like Línea F (a subway simulator) and Möbel (a floor-plan editor).
 - {{{icon-research}}}[[file:research.org][Research]]: papers on robust statistics, my PhD thesis, and teaching.
 - {{{icon-resume}}}[[file:resume.org][Resume]]: experience, education and skills. Also as [[file:resume.pdf][PDF]].
 
