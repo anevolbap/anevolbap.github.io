@@ -1,0 +1,40 @@
+name: Take site offline
+
+# Replaces the whole site with offline/index.html (also served as 404.html).
+# Run it by hand. To bring the site back, enable publish.yml and run it.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build the placeholder
+        run: |
+          mkdir _site
+          cp offline/index.html _site/index.html
+          cp offline/index.html _site/404.html
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5
